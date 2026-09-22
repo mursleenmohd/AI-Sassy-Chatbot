@@ -1,0 +1,23 @@
+# Python Virtual Environments
+myenv/
+
+
+# Environment Variables & Secrets
+.env
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDEs & Editor Configuration
+.vscode/
+.idea/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Docker Log Files
+*.log
