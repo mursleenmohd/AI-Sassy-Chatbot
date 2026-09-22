@@ -96,7 +96,7 @@ sudo usermod -aG docker \$USER
 newgrp docker
 
 # Clone Repo & Run
-git clone https://github.com/YOUR_GITHUB_USERNAME/ai-chatbot.git
+git clone https://github.com/mursleenmohd/AI-Sassy-Chatbot.git
 cd ai-chatbot
 nano .env # Add your production environment variables
 
@@ -105,5 +105,5 @@ docker compose up -d --build
 ```
 
 ### 3. Live Access:
-* **Streamlit UI:** http://YOUR_EC2_PUBLIC_IP:8501
-* **Backend API:** http://YOUR_EC2_PUBLIC_IP:8000/docs
+* **Streamlit UI:** http://65.1.107.198:8501
+* **Backend API:** http://65.1.107.198:8000/docs
