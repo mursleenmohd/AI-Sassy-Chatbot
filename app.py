@@ -57,7 +57,7 @@ if prompt := st.chat_input("Type your query here..."):
         full_response = ""
 
         try:
-            url = "http://localhost:8000/chat/stream"
+            url = "http://fastapi_backend:8000/chat/stream"
             payload = {
                 "session_id": st.session_state.session_id,
                 "user_input": prompt
